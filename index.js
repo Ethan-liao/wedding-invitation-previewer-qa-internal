@@ -39,6 +39,7 @@ name1.addEventListener('keyup',function(e){
   initial1 = e.target.value.charAt(0);
   initial.innerHTML = initial1;
 })
+
 name2.addEventListener('keyup',function(e){
   pName2.innerHTML  = e.target.value;
   initial2=name2.value.charAt(0);
