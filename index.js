@@ -59,7 +59,7 @@ name2.addEventListener('keyup',function(e){
 
 
 
-initial.innerHTML = `${initial1} & ${initial2}`;
+initial.innerHTML = initial1;
 
 
 
