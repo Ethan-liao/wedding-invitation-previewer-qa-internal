@@ -29,6 +29,8 @@ let [casualBtn, beachBtn, mlBtn,name1,name2,date,
 
 console.log('name1 variable',name1)
 
+let initial1;
+let initial2;
 
 beachBtn.addEventListener('click',function(){
   let image = document.querySelector('.previewContainer')
@@ -45,7 +47,7 @@ casualBtn.addEventListener('click',function(){
 })
 name1.addEventListener('keyup',function(e){
   pName1.innerHTML  = e.target.value;
-  initial1 = name1.value
+  initial1 = e.target.value
   
 })
 name2.addEventListener('keyup',function(e){
@@ -54,8 +56,7 @@ name2.addEventListener('keyup',function(e){
 })
 
 
-let initial1;
-let initial2;
+
 
 initial.innerHTML = `${initial1} & ${initial2}`;
 
