@@ -33,7 +33,6 @@ let initial1;
 let initial2;
 
 
-
 name1.addEventListener('keyup',function(e){
   pName1.innerHTML  = e.target.value;
   
