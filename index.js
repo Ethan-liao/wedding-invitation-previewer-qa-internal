@@ -38,9 +38,11 @@ let initial2;
 // Change images
  let imageContainer = document.querySelector('.previewContainer');
 
-casualBtn,
-    beachBtn,
-    mlBtn,
+casualBtn.addEventListener('click',function(e){
+  imageContainer.style.backgroundImage = url('')
+})
+    // beachBtn,
+    // mlBtn,
 
 
 
