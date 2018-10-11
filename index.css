@@ -12,7 +12,7 @@
   display: flex;
   width:38rem;
   justify-content: space-around;
-  /*border: 1px solid black;*/
+  border-bottom: 1px solid black;
 }
 
 .bodyContainer{
