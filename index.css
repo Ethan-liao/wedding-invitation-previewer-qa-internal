@@ -10,7 +10,7 @@
 }
 .headerContainer {
   display: flex;
-  width:38rem;
+  width:37.7rem;
   justify-content: space-around;
   border-bottom: 1px solid black;
 }
