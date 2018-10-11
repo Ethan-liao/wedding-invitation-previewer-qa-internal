@@ -22,7 +22,7 @@
 }
 
 .formContainer{
-  /*border: 1px solid re  d;*/
+  border-right: 1px solid  black;
   display: flex;
   flex-direction: column;
 }
