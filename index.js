@@ -47,7 +47,7 @@ beachBtn.addEventListener('click',function(e){
   imageContainer.style.backgroundImage = "url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/beach-with-big-rock-ahead-vertical-bermuda-heather-kirk.jpg')";
   imageContainer.style.transition = 'All 2s';
 })
-    // mlBtn,
+
 
 
 
