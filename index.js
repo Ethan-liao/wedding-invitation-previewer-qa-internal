@@ -32,6 +32,12 @@ console.log('name1 variable',name1)
 let initial1;
 let initial2;
 
+// Change images
+
+
+
+
+
 
 name1.addEventListener('keyup',function(e){
   pName1.innerHTML  = e.target.value;
