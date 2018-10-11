@@ -51,13 +51,11 @@ name2.addEventListener('keyup',function(e){
   pName2.innerHTML  = e.target.value;
 })
 
-intials.addEventListener('keyup',function(e){
-  pName2.innerHTML  = e.target.value;
-})
 
-function initials(input1,input2){
-  
-}
+let initial1 = name1.value[0];
+let initial2 = name2.value[0];
+
+initial.innerHTML = `initial1 & initial2`;
 
 
 
