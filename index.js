@@ -5,7 +5,7 @@ let [casualBtn, beachBtn, mlBtn,name1,name2,date,
      rsvpDetails,
      pName1,
      pName2,
-     pDate,
+     initial,
      pTime,
      pLocation,
      pRsvp
@@ -45,11 +45,15 @@ casualBtn.addEventListener('click',function(){
 })
 name1.addEventListener('keyup',function(e){
   pName1.innerHTML  = e.target.value;
+  initial
 })
 name2.addEventListener('keyup',function(e){
   pName2.innerHTML  = e.target.value;
 })
 
+function initials(input1,input2){
+  
+}
 
 
 
