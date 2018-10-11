@@ -33,7 +33,7 @@ let initial1;
 let initial2;
 
 // Change images
-
+ let document.querySelector('.pRsvp'),
 
 
 
