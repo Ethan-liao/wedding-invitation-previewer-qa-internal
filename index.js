@@ -49,7 +49,7 @@ name1.addEventListener('keyup',function(e){
   pName1.innerHTML  = e.target.value;
   initial1 = e.target.value
   console.log(e.target.value)
-  
+  initial.innerHTML = initial1;
 })
 name2.addEventListener('keyup',function(e){
   pName2.innerHTML  = e.target.value;
@@ -59,7 +59,7 @@ name2.addEventListener('keyup',function(e){
 
 
 
-initial.innerHTML = initial1;
+
 
 
 
