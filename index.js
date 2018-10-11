@@ -5,7 +5,7 @@ let [casualBtn, beachBtn, mlBtn,name1,name2,date,
      rsvpDetails,
      pName1,
      pName2,
-     date,
+     initial,
      pTime,
      pLocation,
      pRsvp
@@ -37,14 +37,14 @@ name1.addEventListener('keyup',function(e){
   pName1.innerHTML  = e.target.value;
   
   initial1 = e.target.value.charAt(0);
-  date.innerHTML = initial1;
+  initial.innerHTML = initial1;
 })
 
 name2.addEventListener('keyup',function(e){
   pName2.innerHTML  = e.target.value;
   
   initial2 = name2.value.charAt(0);
-  date.innerHTML = `${initial1} & ${initial2}`;
+  initial.innerHTML = `${initial1} & ${initial2}`;
 })
 
 
