@@ -45,15 +45,17 @@ casualBtn.addEventListener('click',function(){
 })
 name1.addEventListener('keyup',function(e){
   pName1.innerHTML  = e.target.value;
+  initial1 = name1.value
   
 })
 name2.addEventListener('keyup',function(e){
   pName2.innerHTML  = e.target.value;
+  initial2=name2.value;
 })
 
 
-let initial1 = name1.value;
-let initial2 = name2.value;
+let initial1;
+let initial2;
 
 initial.innerHTML = `${initial1} & ${initial2}`;
 
