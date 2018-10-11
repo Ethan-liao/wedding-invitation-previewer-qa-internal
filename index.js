@@ -45,7 +45,7 @@ name2.addEventListener('keyup',function(e){
   pName2.innerHTML  = e.target.value;
   
   initial2 = name2.value.charAt(0);
-  initial.innerHTML = `${initial1} & ${initial2}`;
+  initial.innerHTML = ` & ${initial2}`;
 })
 
 
