@@ -55,7 +55,7 @@ name2.addEventListener('keyup',function(e){
 let initial1 = name1.value[0];
 let initial2 = name2.value[0];
 
-initial.innerHTML = `initial1 & initial2`;
+initial.innerHTML = `${initial1} & ${initial2}`;
 
 
 
