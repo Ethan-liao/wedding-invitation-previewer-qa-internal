@@ -32,19 +32,8 @@ console.log('name1 variable',name1)
 let initial1;
 let initial2;
 
-beachBtn.addEventListener('click',function(){
-  let image = document.querySelector('.previewContainer')
-  image.style.backgroundImage = "url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/beach-with-big-rock-ahead-vertical-bermuda-heather-kirk.jpg')";
-  image.style.transition ='all 2s';
-  image.style.animationDelay='2s';
-  
-})
-casualBtn.addEventListener('click',function(){
-  let image = document.querySelector('.previewContainer')
-  image.style.backgroundImage = "url('https://i.pinimg.com/originals/df/16/21/df1621249c94b8dfbfa929dcd0f2df7f.png')";
-  image.style.transition ='all 2s';
-  image.style.animationDelay='2s';
-})
+
+
 name1.addEventListener('keyup',function(e){
   pName1.innerHTML  = e.target.value;
   initial1 = e.target.value.charAt(0);
