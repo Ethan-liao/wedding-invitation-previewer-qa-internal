@@ -57,7 +57,7 @@ name2.addEventListener('keyup',function(e){
 })
 
 
-initial.innerHTML = initial1.charAt(0);
+initial.innerHTML = initial1;
 
 
 
