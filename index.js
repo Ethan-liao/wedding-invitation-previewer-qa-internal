@@ -48,16 +48,16 @@ casualBtn.addEventListener('click',function(){
 name1.addEventListener('keyup',function(e){
   pName1.innerHTML  = e.target.value;
   initial1 = e.target.value;
-  
+  initial.innerHTML = initial1.charAt(0);
 })
 name2.addEventListener('keyup',function(e){
   pName2.innerHTML  = e.target.value;
   initial2=name2.value;
-  
+  initial.innerHTML = initial2.charAt(0);
 })
 
 
-initial.innerHTML = initial1;
+
 
 
 
