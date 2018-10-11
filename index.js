@@ -1,5 +1,8 @@
 window.addEventListener("DOMContentLoaded",function(){
-let [casualBtn, beachBtn, mlBtn,name1,name2,date,
+let [casualBtn,
+    beachBtn,
+    mlBtn,
+    name1,name2,date,
      time,
      location,
      rsvpDetails,
@@ -35,7 +38,9 @@ let initial2;
 // Change images
  let imageContainer = document.querySelector('.previewContainer');
 
-
+casualBtn,
+    beachBtn,
+    mlBtn,
 
 
 
